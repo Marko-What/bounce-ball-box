@@ -114,6 +114,7 @@ div#fedra {
 	bottom: 0px;
 	margin-bottom: 280px;
 	display: none;	
+	z-index: -3;
 }
 
 div#sen {

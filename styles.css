@@ -1,0 +1,159 @@
+div#wrap {
+	position:absolute;
+	width:980px;
+	height:600px;
+	margin-top: 351px;
+	bottom: 0px;
+}
+
+div#boxing {
+	border:10px solid #2A363B;
+	width:250px;
+	height:250px;
+	margin:300 auto;
+	opacity: 0.8;
+	z-index:9;
+	border-radius: 13px;
+	border-top: none;
+}
+
+div#opacityGlass {
+	width:inherit;
+	height:inherit;
+	opacity:0.6;
+	z-index:9;
+	position:absolute;
+	background-color:#45ADA8;
+}
+
+div#box1 {
+	width:200px;
+	height:200px;
+	background-color:#E84A5F;
+	border-radius:50%;
+	margin: 22px;	
+	/*z-index:2;*/
+	overflow: hidden;	
+}
+
+
+div#box2 {
+	width: 15px;
+	height: 15px;
+	background-color: black;
+	border-radius: 50%;
+	margin: 22px;
+	margin-left: 0px;
+	margin-top: 89px;
+	transition: background-color 1.3s;
+}
+
+
+
+div#loputa {
+	width: 250px;
+	height: 20px;
+	position: relative;
+	z-index: 11;
+}
+
+span {
+	border-radius: 10px;
+	background-color: #2A363B;
+	height: 13px;
+	width: 120px;
+}
+
+span.left {
+	float: left;
+	transition: transform 0.3s;
+}
+
+span.right {
+	float: right;
+	transition: transform 0.3s;	
+}
+
+.leftRotate {
+   transform-origin: left top;
+	-ms-transform: : rotate(-145deg);
+	-webkit-transform: : rotate(-145deg);
+	transform: rotate(-145deg); /* Standard syntax */
+}
+
+.rightRotate {
+    transform-origin: right top;
+	-ms-transform: : rotate(145deg);
+	-webkit-transform: : rotate(145deg);
+	transform: rotate(145deg); /* Standard syntax */
+}
+
+
+.leftPrev {
+   transform-origin: left top;
+	-ms-transform: : rotate(0deg);
+	-webkit-transform: : rotate(0deg);
+	transform: rotate(0deg)!important; /* Standard syntax */
+}
+
+.rightPrev {
+    transform-origin: right top;
+	-ms-transform: : rotate(0deg);
+	-webkit-transform: : rotate(0deg);
+	transform: rotate(0deg)!important; /* Standard syntax */
+}
+
+
+
+div#fedra {
+	width: 92px;
+	height: 55px;
+	margin-left: 430px;
+	margin-top: 690px;
+	position: absolute;
+	bottom: 0px;
+	margin-bottom: 280px;
+	display: none;	
+}
+
+div#sen {
+	width: 125px;
+	height: 35px;
+	border-radius: 50%;
+	border: 6px solid orange;
+}
+
+div#sen1 {
+	width: 125px;
+	height: 35px;
+	margin-top: -55px;
+	border-radius: 50%;
+	border: 6px solid orange;
+	bottom: 0px;		
+}
+
+.colorado {
+	background-color: white!important;
+}
+
+div#button {
+	border: 1px solid gray;
+	width: 120px;
+        height: 65px;
+        border-radius: 15px;
+        font-size: 21px;
+        text-align: center;
+        padding: 5px;
+        font-weight: 600;
+        background-color: #2a363B;
+        color: #45ADA8;
+        z-index: 13; 
+        position: absolute;
+        margin: 55px;
+}
+
+div#button:hover {
+	box-shadow: 4px 10px 34px #E84A5F;
+	color:#E84A5F;
+}
+
